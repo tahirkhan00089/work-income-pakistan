@@ -325,18 +325,22 @@ body {
   gap: 20px;
 }
 
+
 .opportunity-card {
-  border: 1px solid #e4ebf0;
-  padding: 23px;
-  border-radius: 12px;
-  background: white;
-  transition: .2s;
+  border: 1px solid #e0e9ef;
+  padding: 25px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff, #f8fcfc);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(16, 36, 58, 0.05);
 }
 
 .opportunity-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px #17324a12;
+  transform: translateY(-7px);
+  border-color: #24c5a5;
+  box-shadow: 0 14px 30px rgba(16, 36, 58, 0.12);
 }
+
 
 .card-icon {
   font-size: 32px;
