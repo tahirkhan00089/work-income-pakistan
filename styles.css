@@ -524,7 +524,21 @@ footer small { color: #aab9c7; }
   .cards, .feature-grid, .guide-grid { grid-template-columns: 1fr; }
   .section-heading h2, .section h2,
   .feature-section h2, .about-section h2 { font-size: 25px; }
-  .trust-note { line-height: 2; }
+   .trust-note { line-height: 2; }
+
+  .work-illustration {
+    width: 220px;
+    min-height: 220px;
+  }
+
+  .work-person {
+    font-size: 75px;
+  }
+
+  .work-icon, .growth-chart, .money-icon {
+    font-size: 25px;
+    padding: 8px;
+  }
 }
 
 .brand-logo {
