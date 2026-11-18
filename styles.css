@@ -416,10 +416,13 @@ footer small { color: #aab9c7; }
   .feature-section h2, .about-section h2 { font-size: 25px; }
   .trust-note { line-height: 2; }
 }
+
 .brand-logo {
-  width: 48px;
-  height: 48px;
+  width: 130px;
+  height: 55px;
+  max-width: 45vw;
   object-fit: contain;
+  object-position: center;
   display: block;
   flex-shrink: 0;
 }
