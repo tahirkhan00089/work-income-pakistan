@@ -419,11 +419,20 @@ body {
 }
 
 .feature-card, .guide-grid article {
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  border: 1px solid #e4ebf0;
+  background: linear-gradient(145deg, #ffffff, #f5fbfa);
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #e0ecea;
+  box-shadow: 0 4px 15px rgba(16, 36, 58, 0.05);
+  transition: all 0.3s ease;
 }
+
+.feature-card:hover, .guide-grid article:hover {
+  transform: translateY(-6px);
+  border-color: #24c5a5;
+  box-shadow: 0 12px 25px rgba(16, 36, 58, 0.10);
+}
+
 
 .feature-card {
   text-decoration: none;
