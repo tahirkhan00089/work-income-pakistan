@@ -96,6 +96,18 @@ body {
   max-width: 650px;
   position: relative;
   z-index: 2;
+  animation: heroFadeIn 1s ease both;
+}
+
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .eyebrow {
@@ -530,13 +542,13 @@ footer small { color: #aab9c7; }
     z-index: 10;
   }
 
-  .header nav.show {
-  display: flex;
-}
+    .header nav.show {
+    display: flex;
+  }
 
-.header nav a {
-  padding: 12px;
-}
+  .header nav a {
+    padding: 12px;
+  }
   
   .hero {
     padding: 55px 7%;
