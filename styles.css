@@ -318,6 +318,7 @@ body {
 }
 
 .section-heading h2::after,
+.section h2::after,
 .feature-section h2::after,
 .about-section h2::after {
   content: "";
