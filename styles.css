@@ -54,13 +54,22 @@ body {
   gap: 25px;
 }
 
+
 .header nav a {
   text-decoration: none;
   color: #e3ebf4;
   font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
 }
 
-.header nav a:hover { color: #36d9b6; }
+.header nav a:hover {
+  color: #55e5c4;
+  background: rgba(85, 229, 196, 0.10);
+  transform: translateY(-2px);
+}
 
 .menu-toggle {
   display: none;
@@ -522,9 +531,13 @@ footer small { color: #aab9c7; }
   }
 
   .header nav.show {
-    display: flex;
-  }
+  display: flex;
+}
 
+.header nav a {
+  padding: 12px;
+}
+  
   .hero {
     padding: 55px 7%;
     flex-direction: column;
