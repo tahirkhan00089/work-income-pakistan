@@ -4,34 +4,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Work & Income Pakistan for questions, suggestions and website enquiries.">
+
+  <meta name="description" content="Contact Work & Income Pakistan for questions, suggestions and feedback about online earning, freelancing, jobs and career resources.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0b1f3a">
+
   <title>Contact Us | Work & Income Pakistan</title>
+
+  <link rel="canonical" href="https://tahirkhan00089.github.io/work-income-pakistan/contact.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Us | Work & Income Pakistan">
+  <meta property="og:description" content="Get in touch with Work & Income Pakistan for questions, suggestions and website enquiries.">
+  <meta property="og:url" content="https://tahirkhan00089.github.io/work-income-pakistan/contact.html">
+  <meta property="og:site_name" content="Work & Income Pakistan">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contact Us | Work & Income Pakistan">
+  <meta name="twitter:description" content="Contact Work & Income Pakistan for questions and feedback.">
+
+  <link rel="icon" type="image/png" href="work-income-logo.png">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <header class="header">
   <a class="brand" href="index.html">
-    <span class="brand-icon">W</span>
+    <img src="work-income-logo.png"
+         alt="Work & Income Pakistan Logo"
+         class="brand-logo">
     <span>Work <b>& Income</b><small>PAKISTAN</small></span>
   </a>
+
   <nav>
     <a href="index.html">Home</a>
     <a href="index.html#opportunities">Opportunities</a>
-    <a href="index.html#about">About</a>
+    <a href="index.html#skills">Free Skills</a>
+    <a href="index.html#guides">Guides</a>
+    <a href="about.html">About</a>
   </nav>
 </header>
 
 <main class="section">
+
   <span class="eyebrow">WE ARE HERE TO HELP</span>
+
   <h1>Contact Us</h1>
 
-  <p>Have a question, suggestion or feedback? We would love to hear from you.</p>
+  <p>
+    Have a question, suggestion or feedback?
+    We would love to hear from you.
+  </p>
 
   <div class="opportunity-card" style="margin-top:25px;">
+
     <div class="card-icon">📧</div>
+
     <h2>Email Us</h2>
-    <p>For general enquiries and website feedback, contact us at:</p>
+
+    <p>
+      For general enquiries and website feedback,
+      contact us at:
+    </p>
+
     <p>
       <strong>
         <a href="mailto:Tahirkhan00089@gmail.com">
@@ -39,31 +76,59 @@
         </a>
       </strong>
     </p>
-    <a class="primary-btn" href="mailto:Tahirkhan00089@gmail.com">
+
+    <a class="primary-btn"
+       href="mailto:Tahirkhan00089@gmail.com">
       Send Email
     </a>
+
   </div>
 
   <h2 style="margin-top:35px;">Our Website</h2>
+
   <p>Work & Income Pakistan</p>
-  <p>Helping visitors discover jobs, online work, learning resources and career opportunities.</p>
+
+  <p>
+    Helping visitors discover jobs, online work,
+    learning resources and career opportunities.
+  </p>
 
   <p style="margin-top:25px;">
-    <a href="index.html">← Back to Home</a>
+    <a href="index.html" class="primary-btn">
+      ← Back to Home
+    </a>
   </p>
+
 </main>
 
-<footer>
+<footer class="site-footer">
+
   <div class="footer-brand">Work & Income Pakistan</div>
-  <p>Discover opportunities. Learn skills. Move forward.</p>
+
+  <p class="footer-tagline">
+    Discover opportunities. Learn skills. Move forward.
+  </p>
+
   <div class="footer-links">
-    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
     <a href="privacy.html">Privacy Policy</a>
     <a href="disclaimer.html">Disclaimer</a>
     <a href="contact.html">Contact</a>
   </div>
-  <small>© 2026 Work & Income Pakistan. All rights reserved.</small>
+
+  <div class="footer-bottom">
+    <small>
+      © <span id="year"></span> Work & Income Pakistan.
+      All rights reserved.
+    </small>
+  </div>
+
 </footer>
+
+<script>
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
 
 </body>
 </html>
