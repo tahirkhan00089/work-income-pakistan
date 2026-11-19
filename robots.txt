@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://tahirkhan00089.github.io/work-income-pakistan/sitemap.xml
