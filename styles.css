@@ -526,6 +526,28 @@ body {
   font-size: 12px;
 }
 
+/* =================================
+   DIRECTORY VERIFICATION NOTE
+================================= */
+
+.verification-note {
+  margin-top: 15px;
+  padding: 17px 20px;
+  background: #eaf5f4;
+  color: #31566a;
+  border: 1px solid #cce9e2;
+  border-left: 4px solid #16b89b;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.8;
+  box-shadow: 0 3px 12px rgba(16, 36, 58, 0.04);
+}
+
+.verification-note strong {
+  color: #087d68;
+  font-size: 14px;
+}
+
 .empty {
   padding: 25px;
   color: #718093;
@@ -819,5 +841,17 @@ body {
 
   .footer-bottom {
     margin-top: 22px;
+  }
+
+  /* MOBILE VERIFICATION NOTE */
+
+  .verification-note {
+    padding: 15px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .verification-note strong {
+    font-size: 13px;
   }
 }
