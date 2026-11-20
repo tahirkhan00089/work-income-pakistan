@@ -1,47 +1,68 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <!-- Google Analytics -->
+  <!-- GOOGLE ANALYTICS -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6JBSCC6KHM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-6JBSCC6KHM');
   </script>
 
+  <!-- GOOGLE SITE VERIFICATION -->
   <meta name="google-site-verification" content="PrSMRGmrHucgTmlH75nwC4zHEcb9s4qR4PNXS0OtFWM">
+
+  <!-- BASIC META -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO META TAGS -->
-  <meta name="description" content="Find online earning opportunities in Pakistan, learn freelancing skills, discover work-from-home jobs, create a professional CV, and protect yourself from online scams with Work & Income Pakistan.">
-
-  <meta name="keywords" content="online earning Pakistan, freelancing Pakistan, online jobs Pakistan, work from home Pakistan, remote jobs Pakistan, free skills, career guides, CV writing, online job scams">
-
-  <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#10243a">
+  <meta name="robots" content="index, follow">
 
-  <!-- WEBSITE TITLE -->
+  <!-- SEO -->
   <title>Online Earning & Freelancing in Pakistan | Work & Income</title>
 
-  <!-- CANONICAL URL -->
-  <link rel="canonical" href="https://tahirkhan00089.github.io/work-income-pakistan/">
+  <meta
+    name="description"
+    content="Explore online earning platforms, freelancing resources, free learning opportunities, career guides and online safety advice for people in Pakistan."
+  >
+
+  <meta
+    name="keywords"
+    content="online earning Pakistan, freelancing Pakistan, online jobs Pakistan, work from home Pakistan, remote jobs Pakistan, free skills, career guides, CV writing, online job scams"
+  >
+
+  <link
+    rel="canonical"
+    href="https://tahirkhan00089.github.io/work-income-pakistan/"
+  >
 
   <!-- OPEN GRAPH -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Online Earning & Freelancing in Pakistan | Work & Income">
-  <meta property="og:description" content="Find online earning opportunities, freelancing resources, free skills and career guides in Pakistan. Discover opportunities and build your future.">
-  <meta property="og:url" content="https://tahirkhan00089.github.io/work-income-pakistan/">
+  <meta
+    property="og:description"
+    content="Discover online work resources, freelancing platforms, free skills and practical career guides for Pakistan."
+  >
+  <meta
+    property="og:url"
+    content="https://tahirkhan00089.github.io/work-income-pakistan/"
+  >
   <meta property="og:site_name" content="Work & Income Pakistan">
   <meta property="og:locale" content="en_PK">
 
-  <!-- TWITTER / X SHARING -->
+  <!-- TWITTER / X -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Online Earning & Freelancing in Pakistan">
-  <meta name="twitter:description" content="Explore online earning opportunities, freelancing skills, work-from-home resources and career guides in Pakistan.">
+  <meta name="twitter:title" content="Work & Income Pakistan">
+  <meta
+    name="twitter:description"
+    content="Explore online earning resources, freelancing skills and practical career guides in Pakistan."
+  >
 
   <!-- WEBSITE ICON -->
   <link rel="icon" href="work-income-logo.png" type="image/png">
@@ -53,16 +74,17 @@
     "@type": "WebSite",
     "name": "Work & Income Pakistan",
     "url": "https://tahirkhan00089.github.io/work-income-pakistan/",
-    "description": "An independent information website sharing online earning opportunities, freelancing resources, free learning resources and career guides in Pakistan.",
+    "description": "An independent information website sharing online earning resources, freelancing information, free learning resources and career guides in Pakistan.",
     "inLanguage": "en"
   }
   </script>
 
-  <!-- EXISTING CSS -->
+  <!-- MAIN STYLESHEET -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- PRODUCT SECTION STYLES -->
+  <!-- PROFESSIONAL PRODUCT SECTION STYLES -->
   <style>
+
     .products-section {
       background: #f7fafc;
       border-radius: 16px;
@@ -70,12 +92,15 @@
 
     .product-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 320px));
-      gap: 22px;
-      margin-top: 28px;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+      gap: 24px;
+      margin-top: 30px;
+      align-items: stretch;
     }
 
     .product-card {
+      display: flex;
+      flex-direction: column;
       background: #ffffff;
       border: 1px solid #e3eaf0;
       border-radius: 14px;
@@ -90,13 +115,14 @@
     }
 
     .product-icon {
-      font-size: 48px;
+      font-size: 46px;
       margin-bottom: 15px;
     }
 
     .product-card h3 {
       color: #10243a;
       font-size: 19px;
+      line-height: 1.4;
       margin-bottom: 12px;
     }
 
@@ -116,35 +142,43 @@
 
     .product-card .primary-btn {
       display: inline-block;
+      width: fit-content;
+      max-width: 100%;
       text-align: center;
       text-decoration: none;
+      margin-bottom: 2px;
     }
 
     .product-note {
       color: #68798a;
       font-size: 12px;
       line-height: 1.7;
-      margin-top: 16px;
+      margin-top: 15px;
     }
 
     .product-review {
       background: #f0f8f6;
       border-left: 3px solid #16a085;
-      padding: 14px;
+      padding: 15px;
       border-radius: 8px;
       color: #31566a;
       font-size: 13px;
       line-height: 1.8;
-      margin-top: 16px;
+      margin-top: 17px;
     }
 
     .product-review strong {
       color: #087d68;
     }
 
+    .product-review p {
+      margin-top: 8px;
+      margin-bottom: 5px;
+    }
+
     .affiliate-disclosure {
-      margin-top: 25px;
-      padding: 17px 20px;
+      margin-top: 28px;
+      padding: 18px 20px;
       background: #eaf5f4;
       border-left: 4px solid #16b89b;
       border-radius: 9px;
@@ -157,7 +191,41 @@
       color: #087d68;
     }
 
+    .verification-note {
+      background: #f4f7fa;
+      border-left: 3px solid #8ca5bb;
+      padding: 14px 16px;
+      border-radius: 7px;
+      color: #526477;
+      font-size: 13px;
+      line-height: 1.8;
+      margin-top: 18px;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 10px;
+      z-index: 9999;
+      background: #ffffff;
+      color: #10243a;
+      padding: 12px 16px;
+      border-radius: 6px;
+    }
+
+    .skip-link:focus {
+      left: 10px;
+    }
+
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible {
+      outline: 3px solid #16a085;
+      outline-offset: 3px;
+    }
+
     @media (max-width: 600px) {
+
       .product-grid {
         grid-template-columns: 1fr;
       }
@@ -169,7 +237,21 @@
       .affiliate-disclosure {
         padding: 15px;
       }
+
     }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      .product-card {
+        transition: none;
+      }
+
+      .product-card:hover {
+        transform: none;
+      }
+
+    }
+
   </style>
 
   <!-- JAVASCRIPT -->
@@ -179,36 +261,64 @@
 
 <body>
 
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<!-- HEADER -->
 <header class="header">
 
-  <a class="brand" href="#home" aria-label="Work & Income Pakistan Home">
-    <img src="work-income-logo.png" alt="Work & Income Pakistan Logo" class="brand-logo">
-    <span>Work <b>& Income</b><small>PAKISTAN</small></span>
+  <a
+    class="brand"
+    href="#home"
+    aria-label="Work and Income Pakistan Home"
+  >
+
+    <img
+      src="work-income-logo.png"
+      alt="Work & Income Pakistan Logo"
+      class="brand-logo"
+    >
+
+    <span>
+      Work <b>& Income</b>
+      <small>PAKISTAN</small>
+    </span>
+
   </a>
 
-  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+  <button
+    class="menu-toggle"
+    id="menuToggle"
+    type="button"
+    aria-label="Toggle navigation menu"
+    aria-expanded="false"
+    aria-controls="nav"
+  >
     ☰
   </button>
 
-  <nav id="nav">
+  <nav id="nav" aria-label="Main navigation">
+
     <a href="#home">Home</a>
     <a href="#opportunities">Opportunities</a>
     <a href="#useful-products">Useful Products</a>
     <a href="#skills">Free Skills</a>
     <a href="#guides">Guides</a>
     <a href="#about">About</a>
+
   </nav>
 
 </header>
 
-<main>
+<main id="main-content">
 
   <!-- HERO SECTION -->
   <section class="hero" id="home">
 
     <div class="hero-content">
 
-      <span class="eyebrow">WELCOME TO WORK & INCOME PAKISTAN</span>
+      <span class="eyebrow">
+        WELCOME TO WORK & INCOME PAKISTAN
+      </span>
 
       <h1>
         Discover Opportunities.<br>
@@ -216,7 +326,7 @@
       </h1>
 
       <p>
-        Find genuine online earning platforms, freelancing
+        Explore online earning platforms, freelancing
         opportunities, useful job resources and free skills
         to help you build your future with confidence.
       </p>
@@ -234,9 +344,11 @@
       </div>
 
       <div class="trust-note">
+
         <span>✓ Beginner Friendly</span>
         <span>✓ Free Resources</span>
         <span>✓ Opportunities & Skills</span>
+
       </div>
 
     </div>
@@ -244,6 +356,7 @@
     <div class="hero-art">
 
       <div class="work-illustration">
+
         <div class="work-icon">💻</div>
         <div class="growth-chart">📈</div>
         <div class="money-icon">💰</div>
@@ -253,6 +366,7 @@
           <strong>Work. Earn. Grow.</strong>
           <small>Build your future online</small>
         </div>
+
       </div>
 
     </div>
@@ -263,13 +377,18 @@
   <section class="search-section">
 
     <div>
-      <h2>What are you looking for?</h2>
-      <p>Search opportunities and resources in one place.</p>
+
+      <h2>What Are You Looking For?</h2>
+
+      <p>
+        Search opportunities and resources in one place.
+      </p>
+
     </div>
 
     <div class="search-box">
 
-      <span>⌕</span>
+      <span aria-hidden="true">⌕</span>
 
       <input
         id="searchInput"
@@ -278,7 +397,9 @@
         aria-label="Search jobs, freelancing and skills"
       >
 
-      <button id="searchBtn">Search</button>
+      <button id="searchBtn" type="button">
+        Search
+      </button>
 
     </div>
 
@@ -290,62 +411,103 @@
     <div class="section-heading">
 
       <div>
+
         <span class="eyebrow">EXPLORE YOUR OPTIONS</span>
+
         <h2>Opportunities & Platforms</h2>
-        <p>Explore official platforms and learn how to apply.</p>
+
+        <p>
+          Explore online work platforms and learn where to begin.
+        </p>
+
       </div>
 
     </div>
 
     <div class="filters" id="filters">
-      <button class="filter active" data-category="All">All</button>
-      <button class="filter" data-category="Freelancing">Freelancing</button>
-      <button class="filter" data-category="Microtasks">Microtasks</button>
-      <button class="filter" data-category="Remote Work">Remote Work</button>
-      <button class="filter" data-category="Learning">Learning</button>
+
+      <button class="filter active" type="button" data-category="All">
+        All
+      </button>
+
+      <button class="filter" type="button" data-category="Freelancing">
+        Freelancing
+      </button>
+
+      <button class="filter" type="button" data-category="Microtasks">
+        Microtasks
+      </button>
+
+      <button class="filter" type="button" data-category="Remote Work">
+        Remote Work
+      </button>
+
+      <button class="filter" type="button" data-category="Learning">
+        Learning
+      </button>
+
     </div>
 
-    <div id="opportunityList" class="cards"></div>
+    <div
+      id="opportunityList"
+      class="cards"
+      aria-live="polite"
+    ></div>
 
     <p id="emptyMessage" class="empty hidden">
       No matching resources found. Try another search.
     </p>
 
     <p class="disclaimer">
-      Important: These are platform directories, not confirmed job
-      vacancies. Registration, work availability, eligibility and
-      payment methods vary. Always check official terms before working.
+
+      <strong>Important:</strong>
+      These are platform directories, not confirmed job vacancies.
+      Registration, work availability, eligibility and payment
+      methods vary. Always check the official terms before working.
+
     </p>
 
     <p class="disclaimer">
-      Pakistan Notice: Before registering, check whether the platform
-      accepts users from Pakistan, offers projects in your location,
-      and supports a payment method you can use. Never pay anyone
-      who promises guaranteed work or earnings.
+
+      <strong>Pakistan Notice:</strong>
+      Before registering, check whether the platform accepts
+      users from Pakistan, offers projects in your location,
+      and supports a payment method you can use. Never pay
+      anyone who promises guaranteed work or earnings.
+
     </p>
 
     <p class="verification-note">
-      <strong>Directory last reviewed:</strong> 20 November 2026.
-      We check the listed platform information and website links,
-      but job availability, registration rules and payment methods
-      can change. Always confirm the latest details on the official
-      platform before registering.
+
+      <strong>Directory information:</strong>
+      Platform details, registration rules, job availability
+      and payment methods can change. We aim to provide useful
+      information, but you should always confirm the latest
+      details directly on the official platform before registering.
+
     </p>
 
   </section>
 
   <!-- USEFUL PRODUCTS / AFFILIATE SECTION -->
-  <section class="section products-section" id="useful-products">
+  <section
+    class="section products-section"
+    id="useful-products"
+  >
 
     <div class="section-heading">
 
       <div>
+
         <span class="eyebrow">USEFUL FINDS</span>
+
         <h2>Useful Products</h2>
+
         <p>
           Explore selected products that may be useful
           in everyday life.
         </p>
+
       </div>
 
     </div>
@@ -355,7 +517,9 @@
       <!-- PRODUCT 1: WATERPROOF PHONE POUCH -->
       <article class="product-card">
 
-        <div class="product-icon" aria-hidden="true">📱</div>
+        <div class="product-icon" aria-hidden="true">
+          📱
+        </div>
 
         <h3>Waterproof Phone Pouch</h3>
 
@@ -365,7 +529,9 @@
           details and compatibility before ordering.
         </p>
 
-        <p class="product-price">Rs. 410</p>
+        <p class="product-price">
+          Rs. 410
+        </p>
 
         <a
           href="https://www.markaz.app/shop/product/p/728993?afd=11319"
@@ -384,8 +550,8 @@
         </p>
 
         <p class="product-note">
-          Price and availability may change.
-          Check the latest product details, delivery charges
+          The displayed price is indicative and may change.
+          Check the latest product price, delivery charges
           and return conditions on Markaz before ordering.
         </p>
 
@@ -394,7 +560,9 @@
       <!-- PRODUCT 2: MOBILE STAND WHITE -->
       <article class="product-card">
 
-        <div class="product-icon" aria-hidden="true">📱</div>
+        <div class="product-icon" aria-hidden="true">
+          📱
+        </div>
 
         <h3>Mobile Stand White</h3>
 
@@ -405,7 +573,9 @@
           and details before ordering.
         </p>
 
-        <p class="product-price">Rs. 720</p>
+        <p class="product-price">
+          Rs. 720
+        </p>
 
         <a
           href="https://www.markaz.app/shop/product/p/757722?afd=11319"
@@ -417,10 +587,10 @@
           View Product on Markaz →
         </a>
 
-        <!-- REAL PERSONAL EXPERIENCE -->
+        <!-- PERSONAL EXPERIENCE -->
         <div class="product-review">
 
-          <strong>Our Personal Experience</strong>
+          <strong>Personal Experience</strong>
 
           <p>
             I have personally used this mobile stand.
@@ -435,8 +605,13 @@
         </div>
 
         <p class="product-note">
-          Price and availability may change.
-          Check the latest product details, delivery charges
+          This review reflects my personal experience.
+          Other users may have different experiences.
+        </p>
+
+        <p class="product-note">
+          The displayed price is indicative and may change.
+          Check the latest product price, delivery charges
           and return conditions on Markaz before ordering.
         </p>
 
@@ -446,6 +621,7 @@
 
     <!-- AFFILIATE DISCLOSURE -->
     <p class="affiliate-disclosure">
+
       <strong>Affiliate Disclosure:</strong>
       Some product links on this website are affiliate links.
       We may earn a commission if you make an eligible purchase
@@ -453,6 +629,7 @@
       This does not affect the price you pay.
       Product prices, availability and seller information
       are controlled by the seller and may change.
+
     </p>
 
   </section>
@@ -465,44 +642,65 @@
     <h2>Learn Skills. Create Opportunities.</h2>
 
     <p>
-      Start learning useful skills without paying for expensive courses.
+      Start learning useful skills with free educational resources.
     </p>
 
     <div class="feature-grid">
 
-      <a class="feature-card"
-         href="https://skillshop.withgoogle.com/"
-         target="_blank"
-         rel="noopener noreferrer">
+      <a
+        class="feature-card"
+        href="https://skillshop.withgoogle.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
 
-        <span>📊</span>
+        <span aria-hidden="true">📊</span>
+
         <h3>Digital Marketing</h3>
-        <p>Learn digital marketing fundamentals.</p>
-        <b>Explore learning →</b>
+
+        <p>
+          Learn digital marketing fundamentals.
+        </p>
+
+        <b>Explore Learning →</b>
 
       </a>
 
-      <a class="feature-card"
-         href="https://www.canva.com/designschool/"
-         target="_blank"
-         rel="noopener noreferrer">
+      <a
+        class="feature-card"
+        href="https://www.canva.com/designschool/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
 
-        <span>🎨</span>
+        <span aria-hidden="true">🎨</span>
+
         <h3>Graphic Design</h3>
-        <p>Learn design and visual communication.</p>
-        <b>Explore learning →</b>
+
+        <p>
+          Learn design and visual communication.
+        </p>
+
+        <b>Explore Learning →</b>
 
       </a>
 
-      <a class="feature-card"
-         href="https://www.freecodecamp.org/"
-         target="_blank"
-         rel="noopener noreferrer">
+      <a
+        class="feature-card"
+        href="https://www.freecodecamp.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
 
-        <span>💻</span>
+        <span aria-hidden="true">💻</span>
+
         <h3>Web Development</h3>
-        <p>Practice coding through free lessons.</p>
-        <b>Explore learning →</b>
+
+        <p>
+          Practice coding through free lessons.
+        </p>
+
+        <b>Explore Learning →</b>
 
       </a>
 
@@ -521,7 +719,7 @@
 
       <article>
 
-        <span>📝</span>
+        <span aria-hidden="true">📝</span>
 
         <h3>How to Start Freelancing in Pakistan</h3>
 
@@ -530,13 +728,15 @@
           and find your first client.
         </p>
 
-        <a href="freelancing-guide.html">Read Full Guide →</a>
+        <a href="freelancing-guide.html">
+          Read Full Guide →
+        </a>
 
       </article>
 
       <article>
 
-        <span>📄</span>
+        <span aria-hidden="true">📄</span>
 
         <h3>Prepare a Professional CV</h3>
 
@@ -544,13 +744,15 @@
           Learn how to present your skills and experience clearly.
         </p>
 
-        <a href="cv-guide.html">Read Full Guide →</a>
+        <a href="cv-guide.html">
+          Read Full Guide →
+        </a>
 
       </article>
 
       <article>
 
-        <span>🛡️</span>
+        <span aria-hidden="true">🛡️</span>
 
         <h3>Avoid Online Job Scams</h3>
 
@@ -559,7 +761,9 @@
           and unrealistic earning promises.
         </p>
 
-        <a href="scam-guide.html">Read Full Guide →</a>
+        <a href="scam-guide.html">
+          Read Full Guide →
+        </a>
 
       </article>
 
@@ -581,8 +785,10 @@
     </p>
 
     <p>
-      We do not guarantee employment or income.
-      Always verify opportunities directly with the provider.
+      We aim to share practical information in a clear and
+      beginner-friendly way. We do not guarantee employment
+      or income. Always verify opportunities directly with
+      the provider before making decisions.
     </p>
 
   </section>
@@ -592,7 +798,9 @@
 <!-- FOOTER -->
 <footer class="site-footer">
 
-  <div class="footer-brand">Work & Income Pakistan</div>
+  <div class="footer-brand">
+    Work & Income Pakistan
+  </div>
 
   <p class="footer-tagline">
     Discover opportunities. Learn skills. Move forward.
@@ -601,8 +809,11 @@
   <div class="footer-links">
 
     <a href="about.html">About</a>
+
     <a href="privacy.html">Privacy Policy</a>
+
     <a href="disclaimer.html">Disclaimer</a>
+
     <a href="contact.html">Contact</a>
 
   </div>
