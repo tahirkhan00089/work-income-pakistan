@@ -4,63 +4,63 @@ const opportunities = [
     name: "Upwork",
     category: "Freelancing",
     icon: "💼",
-    description: "Find freelance projects in writing, design, development and many other services.",
+    description: "Find freelance projects in writing, design, development and more. Pakistan supports local bank and selected mobile wallet withdrawals. Work is not guaranteed.",
     url: "https://www.upwork.com/"
   },
   {
     name: "Fiverr",
     category: "Freelancing",
     icon: "🎨",
-    description: "Offer your services to clients looking for creative and professional work.",
+    description: "Create service listings and offer your skills to clients worldwide. Payoneer withdrawal options are available, but payment coverage depends on your location.",
     url: "https://www.fiverr.com/"
   },
   {
     name: "Freelancer",
     category: "Freelancing",
     icon: "🌍",
-    description: "Explore freelance projects and submit proposals to potential clients.",
+    description: "Find freelance projects and submit proposals. Withdrawal methods depend on your country, account verification and available payment options.",
     url: "https://www.freelancer.com/"
   },
   {
     name: "PeoplePerHour",
     category: "Freelancing",
     icon: "⏰",
-    description: "Explore project-based freelance services and client opportunities.",
+    description: "Explore freelance projects and offer services to clients. Check the available withdrawal options for your country before starting.",
     url: "https://www.peopleperhour.com/"
   },
   {
     name: "CrowdGen",
     category: "Microtasks",
     icon: "🤖",
-    description: "Explore AI training and data projects. Availability depends on location and qualifications.",
+    description: "Explore AI training and data projects. Project eligibility, task availability and payment methods depend on your location and qualifications.",
     url: "https://crowdgen.com/"
   },
   {
     name: "Clickworker",
     category: "Microtasks",
     icon: "🖱️",
-    description: "Explore online microtasks and check available work in your country.",
+    description: "Explore online microtasks. Registration may be unavailable in some countries. Confirm that a supported payment method is available before working.",
     url: "https://www.clickworker.com/"
   },
   {
     name: "We Work Remotely",
     category: "Remote Work",
     icon: "🏠",
-    description: "Browse remote job listings and check each employer's country requirements.",
+    description: "Browse remote job listings. Applicants in Pakistan should look for jobs marked worldwide or open to their region.",
     url: "https://weworkremotely.com/"
   },
   {
     name: "freeCodeCamp",
     category: "Learning",
     icon: "💻",
-    description: "Learn programming and web development through free interactive lessons.",
+    description: "Learn programming and web development through free lessons, practical projects and free certifications.",
     url: "https://www.freecodecamp.org/"
   },
   {
     name: "Google Skillshop",
     category: "Learning",
     icon: "📚",
-    description: "Learn about Google's digital tools and advertising products.",
+    description: "Explore Google's training resources for digital tools, advertising products and professional skills.",
     url: "https://skillshop.withgoogle.com/"
   }
 ];
