@@ -18,7 +18,7 @@ const opportunities = [
     name: "Freelancer",
     category: "Freelancing",
     icon: "🌍",
-    description: "Find freelance projects and submit proposals. Withdrawal methods depend on your country, account verification and available payment options.",
+    description: "Find freelance projects and submit proposals. Pakistan supports Express Withdrawal to eligible bank accounts. Withdrawal fees, minimum amounts and verification requirements apply.",
     url: "https://www.freelancer.com/"
   },
   {
@@ -62,6 +62,20 @@ const opportunities = [
     icon: "📚",
     description: "Explore Google's training resources for digital tools, advertising products and professional skills.",
     url: "https://skillshop.withgoogle.com/"
+  },
+  {
+    name: "Guru",
+    category: "Freelancing",
+    icon: "💻",
+    description: "Find freelance projects in writing, design, programming and other skills. Pakistan supports eligible local bank withdrawals. A minimum $100 balance and $1 withdrawal fee apply. Payments may take up to five business days. Work is not guaranteed.",
+    url: "https://www.guru.com/"
+  },
+  {
+    name: "Canva",
+    category: "Freelancing",
+    icon: "🎨",
+    description: "Create graphics, social media designs and presentations. You can offer design services to clients. Canva Creators may earn royalties after acceptance into the program. Creator eligibility and payment arrangements apply. Earnings are not guaranteed.",
+    url: "https://www.canva.com/"
   }
 ];
 
